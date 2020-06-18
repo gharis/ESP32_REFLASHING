@@ -6,7 +6,7 @@ eg- continuous rebooting
 
 ### install python27
 
-### inside python27 scripts folder run pip install esptool 
+### goto C:\Python27\Scripts folder run pip install esptool 
 C:\Python27\Scripts>pip install esptool 
 
 
@@ -64,7 +64,7 @@ Hard resetting via RTS pin...
 
 
 
-# download micropython flashing bin files from https://micropython.org/download/esp32/ 
+## download micropython flashing bin files from https://micropython.org/download/esp32/ 
 ### select a stable version download (in my case esp32-idf3-20191220-v1.12.bin)
 ### copy the file into C:\Python27\Scripts
 ### hold boot button on esp32
