@@ -1,4 +1,5 @@
-reflsahing is required when esp32 device is malfunctioning eg continuous rebooting
+reflsahing is required when esp32 device is malfunctioning
+eg- continuous rebooting
 
 
 # ESP32_REFLASHING on Windows 10
