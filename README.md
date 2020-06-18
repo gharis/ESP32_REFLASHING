@@ -109,5 +109,6 @@ Leaving...
 
 Hard resetting via RTS pin... 
 
-now esp32 is reflashed 
-  
+now esp32 is reflashed.
+
+to reflash esp8622 follow https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/
