@@ -4,7 +4,7 @@ eg- continuous rebooting
 
 # ESP32_REFLASHING on Windows 10
 
-### Iinstall python27
+### Install python27
 
 ### Goto C:\Python27\Scripts folder run pip install esptool 
 C:\Python27\Scripts>pip install esptool 
