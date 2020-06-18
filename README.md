@@ -2,7 +2,7 @@ Reflsahing is required when esp32 device is malfunctioning
 eg- continuous rebooting
 
 
-# ESP32_REFLASHING on Windows 10
+# ESP32 REFLASHING on Windows 10
 
 ### Install python27
 
