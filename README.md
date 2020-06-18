@@ -1,12 +1,12 @@
-reflsahing is required when esp32 device is malfunctioning
+Reflsahing is required when esp32 device is malfunctioning
 eg- continuous rebooting
 
 
 # ESP32_REFLASHING on Windows 10
 
-### install python27
+### Iinstall python27
 
-### goto C:\Python27\Scripts folder run pip install esptool 
+### Goto C:\Python27\Scripts folder run pip install esptool 
 C:\Python27\Scripts>pip install esptool 
 
 
@@ -26,8 +26,8 @@ esptool: error: too few arguments
 
 
  
-### hold boot button on esp32
-### goto C:\Python27\Scripts folder run esptool.py --chip esp32 erase_flash 
+### Hold boot button on esp32
+### Goto C:\Python27\Scripts folder run esptool.py --chip esp32 erase_flash 
  
  
 C:\Python27\Scripts>esptool.py --chip esp32 erase_flash 
@@ -64,11 +64,11 @@ Hard resetting via RTS pin...
 
 
 
-## download micropython flashing bin files from https://micropython.org/download/esp32/ 
-### select a stable version download (in my case esp32-idf3-20191220-v1.12.bin)
-### copy the file into C:\Python27\Scripts
-### hold boot button on esp32
-### goto C:\Python27\Scripts folder run esptool.py --chip esp32 --port COM3 write_flash -z 0x1000 esp32-idf3-20191220-v1.12.bin 
+## Download micropython flashing bin files from https://micropython.org/download/esp32/ 
+### Select a stable version download (in my case esp32-idf3-20191220-v1.12.bin)
+### Copy the file into C:\Python27\Scripts
+### Hold boot button on esp32
+### Goto C:\Python27\Scripts folder run esptool.py --chip esp32 --port COM3 write_flash -z 0x1000 esp32-idf3-20191220-v1.12.bin 
  
  
 C:\Python27\Scripts>esptool.py --chip esp32 --port COM3 write_flash -z 0x1000 esp32-idf3-20191220-v1.12.bin 
